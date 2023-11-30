@@ -51,29 +51,4 @@ private:
     std::string preprocess(const std::string& input);
     void processBlock(const uint8_t* block);
 };
-
-//class SHA256 {
-//public:
-//    SHA256();
-//    QByteArray hash(const QByteArray& input);
-
-//private:
-//    uint32_t H[8];  // Initialization of hash variables
-
-//    // Helper functions
-//    QByteArray preprocess(const QByteArray& input);
-//    void processBlock(const uint8_t* block);
-//};
-
-//SHA256::SHA256() {
-//    // Initialization of hash variables
-//    H[0] = 0x6a09e667;
-//    H[1] = 0xbb67ae85;
-//    H[2] = 0x3c6ef372;
-//    H[3] = 0xa54ff53a;
-//    H[4] = 0x510e527f;
-//    H[5] = 0x9b05688c;
-//    H[6] = 0x1f83d9ab;
-//    H[7] = 0x5be0cd19;
-//}
 #endif // SHA256_H
